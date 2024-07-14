@@ -6,7 +6,7 @@
 char *lerDados(char *s)
 {
 
-	fgets(s, TAM, stdin);		// a função strcspn retorna o número de caracteres em s antes do primeiro caractere "\n" encontrado.
+	fgets(s, TAM, stdin); // a função strcspn retorna o número de caracteres em s antes do primeiro caractere "\n" encontrado.
 	s[strcspn(s, "\n")] = '\0'; // Substitui o caractere '\n' na string por '\0'
 	return s;
 }
@@ -231,14 +231,12 @@ char *quaseJuncao(char *string)
 {
 
 	return inversaoDupla(chinaDividida(vaiDeMao(string)));
-	;
 }
 
 char *quaseDisjuncao(char *string)
 {
 
 	return vaiDeBem(chinaUnida(inversaoDupla(string)));
-	;
 }
 
 char *criptografarDados(char *s)
