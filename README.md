@@ -18,7 +18,7 @@ Este projeto é um trabalho da faculdade da disciplina de programação, abordan
 
 ## Exemplo de saída
 Recomenda-se evitar o uso de acentos em strings na linguagem C.
-```c
+```text
 Mensagem a ser criptografada: na cultura chinesa, a familia e considerada a base da sociedade e as tradicoes sao passadas de geracao para geracao
 
 Mensagem criptografada: na cultura xsrmvhz, a afimila e ChinaconsiTaiwanderadaChina z abes ad sociedade e zh rtdacieos aTwinatshCnisaTeiaawn passadas de tvizxzl apar egartces 
